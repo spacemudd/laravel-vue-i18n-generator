@@ -1,6 +1,10 @@
-## About
+# Get started
 
-[![Build Status](https://travis-ci.org/martinlindhe/laravel-vue-i18n-generator.png?branch=master)](https://travis-ci.org/martinlindhe/laravel-vue-i18n-generator)
+`composer require spacemudd/laravel-vue-i18n-generator --dev`
+
+`php artisan vendor:publish --provider="MartinLindhe\VueInternationalizationGenerator\GeneratorProvider"`
+
+## About
 
 Laravel 8 package that allows you to share your [Laravel localizations](https://laravel.com/docs/8.x/localization)
 with your [vue](http://vuejs.org/) front-end, using [vue-i18n](https://github.com/kazupon/vue-i18n) or [vuex-i18n](https://github.com/dkfbasel/vuex-i18n).
